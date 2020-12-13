@@ -8,7 +8,7 @@ const Header = () => {
   const logout = () => {
     deleteCookie('userData');
     deleteCookie('token');
-    window.location.replace('/');
+    window.location.replace('/login');
   };
   return (
     <div className="header">
