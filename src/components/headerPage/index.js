@@ -4,7 +4,6 @@ import { isUserAuthenticated, deleteCookie } from '../../utils/cookie';
 
 const Header = () => {
   const listMenu = ['home', 'profile', 'contact', 'infoCorona', 'product'];
-
   const logout = () => {
     deleteCookie('userData');
     deleteCookie('token');

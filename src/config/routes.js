@@ -22,15 +22,16 @@ const routes = [
     isPublic: false,
   },
   {
-    path: '/product',
-    component: Product,
-    isPublic: false,
-  },
-  {
     path: '/product/:productId',
     component: DetailProduct,
     isPublic: false,
   },
+  {
+    path: '/product',
+    component: Product,
+    isPublic: false,
+  },
+
   {
     path: '/contact',
     component: Contact,
